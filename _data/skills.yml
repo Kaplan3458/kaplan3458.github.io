@@ -1,28 +1,28 @@
 # Skills
 
 - skill: "Languages"
-  description: "Turkish (Native), English (Advanced)"
+  description: "<div style='text-align: justify;'>Turkish (Native), English (Advanced)</div>"
 
 - skill: "Programming Languages"
-  description: "Python, C#, JavaScript, SQL, MATLAB, OpenFOAM"
+  description: "<div style='text-align: justify;'>Python, C#, JavaScript, SQL, MATLAB, OpenFOAM</div>"
 
 - skill: "Developer Tools"
-  description: "Visual Studio, Jupyter Notebook, Git/GitHub, Anaconda, MS SQL Server Management Studio, SolidWorks, ANSYS, SAP2000, MATLAB Simulink, AutoCAD, Revit"
+  description: "<div style='text-align: justify;'>Visual Studio, Jupyter Notebook, Git/GitHub, Anaconda, MS SQL Server Management Studio, SolidWorks, ANSYS, SAP2000, MATLAB Simulink, AutoCAD, Revit</div>"
 
 - skill: "Frameworks"
-  description: "Scikit-learn, TensorFlow, Keras, PyTorch (basic), ASP.NET MVC, Bootstrap, Entity Framework"
+  description: "<div style='text-align: justify;'>Scikit-learn, TensorFlow, Keras, PyTorch (basic), ASP.NET MVC, Bootstrap, Entity Framework</div>"
 
 - skill: "Cloud/Databases"
-  description: "MS-SQL, Azure (basic ML services), Dynamics 365 (AX, CRM, F&O)"
+  description: "<div style='text-align: justify;'>MS-SQL, Azure (basic ML services), Dynamics 365 (AX, CRM, F&O)</div>"
 
 - skill: "Soft Skills"
-  description: "Academic research & publishing, scientific writing, interdisciplinary collaboration, project management, data-driven problem solving, mentoring & teaching, analytical thinking, adaptability"
+  description: "<div style='text-align: justify;'>Academic research & publishing, scientific writing, interdisciplinary collaboration, project management, data-driven problem solving, mentoring & teaching, analytical thinking, adaptability</div>"
 
 - skill: "Personal Interest"
-  description: "Nature exploration, hiking & landscape photography; art exhibitions, opera, ballet & theatre; poetry, literature & creative writing; discovering new places, cultures & innovative ideas; engineering tools & technological innovations"
+  description: "<div style='text-align: justify;'>Nature exploration, hiking & landscape photography; art exhibitions, opera, ballet & theatre; poetry, literature & creative writing; discovering new places, cultures & innovative ideas; engineering tools & technological innovations</div>"
 
 - skill: "Coursework"
-  description: "Computational Fluid Dynamics (CFD), Advanced Heat Transfer, Advanced Fluid Mechanics & Dynamics, Advanced Thermodynamics, Machine Learning, Artificial Intelligence for Healthcare & Renewable Energy Systems, Structural Analysis, Smart City Technologies, Sustainability"
+  description: "<div style='text-align: justify;'>Computational Fluid Dynamics (CFD), Advanced Heat Transfer, Advanced Fluid Mechanics & Dynamics, Advanced Thermodynamics, Machine Learning, Artificial Intelligence for Healthcare & Renewable Energy Systems, Structural Analysis, Smart City Technologies, Sustainability</div>"
 
 - skill: "Areas of Interest"
-  description: "Renewable Energy (Wind & Solar), Computational Fluid Dynamics, Machine Learning & Artificial Intelligence, Smart Cities & Sustainable Infrastructure, Biomedical Engineering, Energy Forecasting & Optimization, IoT Systems, Advanced Manufacturing"
+  description: "<div style='text-align: justify;'>Renewable Energy (Wind & Solar), Computational Fluid Dynamics, Machine Learning & Artificial Intelligence, Smart Cities & Sustainable Infrastructure, Biomedical Engineering, Energy Forecasting & Optimization, IoT Systems, Advanced Manufacturing</div>"
