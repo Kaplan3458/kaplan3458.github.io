@@ -2,63 +2,55 @@
 
 - project: "SÜİT - Advanced Technologies Platform for Sustainable Cities"
   role: "Ph.D. Candidate Researcher"
-  duration: "2025"
-  # url: "https://github.com/Kaplan3458"
-  description: >
-   In the 21st century, the increasing proportion of the population living in urban areas, combined with the negative impacts of climate change and ecosystem degradation, has accelerated the necessity of implementing the smart city concept at a faster pace. The SÜİT (Advanced Technologies for Sustainable Cities) Platform aims to develop innovative technologies for smart city infrastructures in line with the principles of the European Green Deal and sustainability, while enhancing their technological readiness levels to strengthen Turkey’s rapidly growing smart city sector and increase its potential for innovative product development and export. Within this framework, the research program focuses on energy-efficient and scalable communication systems for the Internet of Things (IoT), carbon-free and low-carbon energy production and smart grid management, electric vehicles and smart transportation, spatial data analytics for building energy efficiency, as well as ecosystem monitoring and management.
+  duration: "<div style='text-align:right;'>2025</div>"
+  description: "<div style='text-align: justify;'>In the 21st century, the increasing proportion of the population living in urban areas, combined with the negative impacts of climate change and ecosystem degradation, has accelerated the necessity of implementing the smart city concept at a faster pace. The SÜİT (Advanced Technologies for Sustainable Cities) Platform aims to develop innovative technologies for smart city infrastructures in line with the principles of the European Green Deal and sustainability, while enhancing their technological readiness levels to strengthen Turkey’s rapidly growing smart city sector and increase its potential for innovative product development and export. Within this framework, the research program focuses on energy-efficient and scalable communication systems for the Internet of Things (IoT), carbon-free and low-carbon energy production and smart grid management, electric vehicles and smart transportation, spatial data analytics for building energy efficiency, as well as ecosystem monitoring and management.</div>"
+
 - project: "VASCULAB - Vascular Simulation and Hemodynamic Analysis Laboratory"
   role: "Researcher"
-  duration: "2024"
-  description: >
-    This project was conducted in collaboration with a university hospital and focused on examining the impact of key physiological parameters on blood flow and intravascular pressure during bypass surgeries. Using advanced computational models and simulation techniques, hemodynamic conditions were replicated, and variables such as vessel diameter, flow rate, and blood viscosity were systematically evaluated in relation to postoperative outcomes. The study provided critical insights for optimizing surgical procedures and minimizing risks, thereby integrating engineering-based hemodynamic modeling with cardiovascular medical applications.
+  duration: "<div style='text-align:right;'>2024</div>"
+  description: "<div style='text-align: justify;'>This project was conducted in collaboration with a university hospital and focused on examining the impact of key physiological parameters on blood flow and intravascular pressure during bypass surgeries. Using advanced computational models and simulation techniques, hemodynamic conditions were replicated, and variables such as vessel diameter, flow rate, and blood viscosity were systematically evaluated in relation to postoperative outcomes. The study provided critical insights for optimizing surgical procedures and minimizing risks, thereby integrating engineering-based hemodynamic modeling with cardiovascular medical applications.</div>"
 
 - project: "AEROCAST - Advanced Energy Regression & Optimization for Computational Analysis of Sustainable Turbines"
   role: "Researcher"
-  duration: "2023"
-  description: >
-    This project focused on predicting energy generation from wind turbines using various machine learning algorithms. High-resolution turbine data (including wind speed, direction, temperature, and operational parameters) were analyzed with KNN, Random Forest, Decision Tree, and XGBoost models. The predictive performance of these models was systematically compared for short- and mid-term energy forecasting, and an ensemble model combining their outputs was developed. The study provided a robust scientific framework for more reliable forecasting in renewable energy production and contributed to the optimization of the energy supply-demand balance.
+  duration: "<div style='text-align:right;'>2023</div>"
+  description: "<div style='text-align: justify;'>This project focused on predicting energy generation from wind turbines using various machine learning algorithms. High-resolution turbine data (including wind speed, direction, temperature, and operational parameters) were analyzed with KNN, Random Forest, Decision Tree, and XGBoost models. The predictive performance of these models was systematically compared for short- and mid-term energy forecasting, and an ensemble model combining their outputs was developed. The study provided a robust scientific framework for more reliable forecasting in renewable energy production and contributed to the optimization of the energy supply-demand balance.</div>"
 
 - project: "PREDIAB - Predictive Analytics for Diabetes via Ensemble Methods"
   role: "Researcher"
-  duration: "2023"
-  description: >
-    This project investigated the classification performance of machine learning-based ensemble algorithms for the early diagnosis of diabetes. Patient data obtained in collaboration with a university hospital were analyzed using Voting, Random Forest, Bagging, and Gradient Boosting methods, with performance evaluated in terms of accuracy, precision, and recall. The study provided a scientific contribution to identifying the most suitable algorithms for diabetes diagnosis while demonstrating significant potential for the integration of AI-driven healthcare technologies into clinical decision support systems.
+  duration: "<div style='text-align:right;'>2023</div>"
+  description: "<div style='text-align: justify;'>This project investigated the classification performance of machine learning-based ensemble algorithms for the early diagnosis of diabetes. Patient data obtained in collaboration with a university hospital were analyzed using Voting, Random Forest, Bagging, and Gradient Boosting methods, with performance evaluated in terms of accuracy, precision, and recall. The study provided a scientific contribution to identifying the most suitable algorithms for diabetes diagnosis while demonstrating significant potential for the integration of AI-driven healthcare technologies into clinical decision support systems.</div>"
 
 - project: "HEMERA - Cancer Cell Classification"
   role: "Researcher"
-  duration: "2022"
-  description: >
-    This project focused on evaluating the performance of various machine learning algorithms (KNN, SVM, Decision Tree, and Naive Bayes) in classifying cancer cells by type. Conducted in collaboration with a university hospital, the study compared models using multiple performance metrics and demonstrated valuable outcomes for enhancing the effectiveness of AI-based decision support systems in clinical diagnosis of rare and advanced cancers.
+  duration: "<div style='text-align:right;'>2022</div>"
+  description: "<div style='text-align: justify;'>This project focused on evaluating the performance of various machine learning algorithms (KNN, SVM, Decision Tree, and Naive Bayes) in classifying cancer cells by type. Conducted in collaboration with a university hospital, the study compared models using multiple performance metrics and demonstrated valuable outcomes for enhancing the effectiveness of AI-based decision support systems in clinical diagnosis of rare and advanced cancers.</div>"
+
 - project: "HERA - Heritage Energy Retrofit Analysis"
   role: "Researcher"
-  duration: "2021"
-  description: >
-    This project focused on exploring innovative methods to enhance the energy efficiency of traditional housing. The Özdoğan House was examined as a case study, with detailed analyses of the building’s thermal comfort, heat loss, and energy consumption profile. Both passive strategies (such as insulation, material selection, and window placement) and active solutions (including renewable energy systems and modern heating/cooling technologies) were evaluated. The findings demonstrated that energy efficiency can be significantly improved while preserving traditional architecture, thereby contributing to the advancement of sustainable building design.
+  duration: "<div style='text-align:right;'>2021</div>"
+  description: "<div style='text-align: justify;'>This project focused on exploring innovative methods to enhance the energy efficiency of traditional housing. The Özdoğan House was examined as a case study, with detailed analyses of the building’s thermal comfort, heat loss, and energy consumption profile. Both passive strategies (such as insulation, material selection, and window placement) and active solutions (including renewable energy systems and modern heating/cooling technologies) were evaluated. The findings demonstrated that energy efficiency can be significantly improved while preserving traditional architecture, thereby contributing to the advancement of sustainable building design.</div>"
+
 - project: "ONCAS - Oncology Classification and Analysis System"
   role: "Researcher"
-  duration: "2021"
-  description: >
-    This project conducted a comprehensive study on the classification of breast cancer cells by type using machine learning algorithms such as KNN, PCA+KNN, and NCA+KNN. Carried out in collaboration with a university hospital, the research evaluated the classification performance of different algorithms based on features extracted from clinical datasets. The project introduced an innovative approach supporting early diagnosis in both biomedical engineering and AI-based healthcare applications, thereby contributing to the academic literature and advancing research in computational oncology.
+  duration: "<div style='text-align:right;'>2021</div>"
+  description: "<div style='text-align: justify;'>This project conducted a comprehensive study on the classification of breast cancer cells by type using machine learning algorithms such as KNN, PCA+KNN, and NCA+KNN. Carried out in collaboration with a university hospital, the research evaluated the classification performance of different algorithms based on features extracted from clinical datasets. The project introduced an innovative approach supporting early diagnosis in both biomedical engineering and AI-based healthcare applications, thereby contributing to the academic literature and advancing research in computational oncology.</div>"
 
 - project: "DRIVEFF - Driving Efficiency Forecasting with Regression Models"
   role: "Researcher"
-  duration: "2020"
-  description: >
-    This project focused on predicting vehicle fuel consumption using various regression models, including Lasso, Ridge, ElasticNet, and XGBoost. The study highlighted the potential of machine learning algorithms to improve energy efficiency in the transportation sector and contribute to sustainable mobility. The findings provided valuable insights for the development of decision support systems applicable to both academic research and industrial practices.
+  duration: "<div style='text-align:right;'>2020</div>"
+  description: "<div style='text-align: justify;'>This project focused on predicting vehicle fuel consumption using various regression models, including Lasso, Ridge, ElasticNet, and XGBoost. The study highlighted the potential of machine learning algorithms to improve energy efficiency in the transportation sector and contribute to sustainable mobility. The findings provided valuable insights for the development of decision support systems applicable to both academic research and industrial practices.</div>"
+
 - project: "SART - Subsonic Open-Circuit Wind Tunnel Design"
   role: "Researcher"
-  duration: "2019"
-  description: >
-   This project involved the design of a subsonic open-circuit wind tunnel to facilitate aerodynamic analyses. The system was optimized for flow control, pressure measurements, and aerodynamic force analysis, providing an infrastructure that can be utilized for both educational and research purposes. The study not only contributed to engineering research within the university but also established a foundational experimental platform for validation studies in the aerospace and automotive industries.
+  duration: "<div style='text-align:right;'>2019</div>"
+  description: "<div style='text-align: justify;'>This project involved the design of a subsonic open-circuit wind tunnel to facilitate aerodynamic analyses. The system was optimized for flow control, pressure measurements, and aerodynamic force analysis, providing an infrastructure that can be utilized for both educational and research purposes. The study not only contributed to engineering research within the university but also established a foundational experimental platform for validation studies in the aerospace and automotive industries.</div>"
 
 - project: "RÜZGEM - Vertical-Axis Wind Turbine Project"
   role: "Researcher"
-  duration: "2018"
-  description: >
-    This project focused on the design and manufacturing of a vertical-axis wind turbine (VAWT) to meet the energy demand of university laboratory buildings. The system was engineered to ensure high efficiency and continuous power generation even at low wind speeds. The project demonstrated the applicability of renewable energy resources for localized energy production and the development of sustainable infrastructure within university campuses.
+  duration: "<div style='text-align:right;'>2018</div>"
+  description: "<div style='text-align: justify;'>This project focused on the design and manufacturing of a vertical-axis wind turbine (VAWT) to meet the energy demand of university laboratory buildings. The system was engineered to ensure high efficiency and continuous power generation even at low wind speeds. The project demonstrated the applicability of renewable energy resources for localized energy production and the development of sustainable infrastructure within university campuses.</div>"
 
 - project: "TARIM - IoT-Integrated Drone Design for Smart Agriculture"
   role: "Researcher"
-  duration: "2017"
-  description: >
-    This project involved the development of a drone prototype integrated with IoT-based sensors and autonomous control systems to enhance agricultural productivity. The system enables real-time monitoring of critical parameters such as plant health, soil moisture, temperature, irrigation needs, and disease indicators in agricultural fields. These data are transmitted to and analyzed through a cloud-based platform, providing decision support for farmers. The TARIM Project presents an innovative solution for data-driven sustainable production in smart agriculture applications, demonstrating the potential of integrating advanced technologies into modern farming practices.
+  duration: "<div style='text-align:right;'>2017</div>"
+  description: "<div style='text-align: justify;'>This project involved the development of a drone prototype integrated with IoT-based sensors and autonomous control systems to enhance agricultural productivity. The system enables real-time monitoring of critical parameters such as plant health, soil moisture, temperature, irrigation needs, and disease indicators in agricultural fields. These data are transmitted to and analyzed through a cloud-based platform, providing decision support for farmers. The TARIM Project presents an innovative solution for data-driven sustainable production in smart agriculture applications, demonstrating the potential of integrating advanced technologies into modern farming practices.</div>"
