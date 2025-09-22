@@ -1,33 +1,33 @@
 # Degree
-- degree: "<div><strong>Istanbul Technical University</strong></div>
-           <div>Doctor of Philosophy – Ph.D. / Mechanical Engineering</div>"
+- degree: "Doctor of Philosophy - Ph.D. / Mechanical Engineering"
+  uni: "Istanbul Technical University"
   year: "<div style='text-align:right;'>2023 – Present</div>"
   awards:
-    - award: "<div style='text-align:right;'>GPA: 3.81/4.00</div>"
+    - award: "GPA: 3.81/4.00"
     - award: "High Honors distinction (in progress)"
-  summary: ""
+  summary: "<div style='text-align: justify;'></div>"
 
-- degree: "<div><strong>Istanbul Technical University</strong></div>
-           <div>Master of Science – M.Sc. / Mechanical Engineering</div>"
+- degree: "Master of Science - M.Sc. / Mechanical Engineering"
+  uni: "Istanbul Technical University"
   year: "<div style='text-align:right;'>2020 – 2023</div>"
   awards:
-    - award: "<div style='text-align:right;'>GPA: 3.69/4.00</div>"
+    - award: "GPA: 3.69/4.00"
     - award: "High Honors distinction"
-  summary: ""
+  summary: "<div style='text-align: justify;'></div>"
 
-- degree: "<div><strong>F.M.V. Işık University</strong></div>
-           <div>Bachelor of Science – B.Sc. / Civil Engineering (100% Scholarship)</div>"
+- degree: "Bachelor of Science - B.Sc. / Civil Engineering (100% Scholarship)"
+  uni: "F.M.V. Işık University"
   year: "<div style='text-align:right;'>2016 – 2019</div>"
   awards:
-    - award: "<div style='text-align:right;'>GPA: 3.87/4.00</div>"
+    - award: "GPA: 3.87/4.00"
     - award: "Valedictorian, Civil Engineering Department"
-  summary: ""
+  summary: "<div style='text-align: justify;'></div>"
 
-- degree: "<div><strong>F.M.V. Işık University</strong></div>
-           <div>Bachelor of Science – B.Sc. / Mechanical Engineering (100% Scholarship)</div>"
+- degree: "Bachelor of Science - B.Sc. / Mechanical Engineering (100% Scholarship)"
+  uni: "F.M.V. Işık University"
   year: "<div style='text-align:right;'>2014 – 2018</div>"
   awards:
-    - award: "<div style='text-align:right;'>GPA: 3.85/4.00</div>"
+    - award: "GPA: 3.85/4.00"
     - award: "Valedictorian, Faculty of Engineering"
     - award: "Valedictorian, Mechanical Engineering Department"
-  summary: ""
+  summary: "<div style='text-align: justify;'></div>"
