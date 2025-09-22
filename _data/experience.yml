@@ -2,68 +2,62 @@
 
 - company: "Işık University"
   position: "Research Assistant"
-  duration: "                                       2019 – Present"
-  summary: >
-    Delivered theoretical and practical lectures at undergraduate and graduate levels; actively engaged
+  duration: "<div style='text-align:right;'>2019 – Present</div>"
+  summary: "<div style='text-align: justify;'>Delivered theoretical and practical lectures at undergraduate and graduate levels; actively engaged
     in student advising, mentoring, and academic guidance.
-    <ul class="resume-item-list">
+    <ul class='resume-item-list'>
       <li>Delivered theoretical and practical lectures at undergraduate and graduate levels; actively engaged in student advising, mentoring, and academic guidance.</li>
       <li>Contributed to national and international research projects, supported the preparation of peerreviewed publications, and conducted data collection, experimental studies, modeling, and analysis in line with academic standards.</li>
       <li>Assisted in the coordination of course, exam, and academic schedules, ensuring compliance with institutional quality and ethical standards while improving organizational processes within the faculty</li>
-    </ul>
+    </ul></div>"
 
 - company: "TÜBİTAK"
   position: "Ph.D. Candidate Researcher"
-  duration: "2023 – Present"
-  summary: >
-    Conducting design and development studies within the scope of the SÜİT program, focusing on innovative
+  duration: "<div style='text-align:right;'>2023 – Present</div>"
+  summary: "<div style='text-align: justify;'>Conducting design and development studies within the scope of the SÜİT program, focusing on innovative
     solutions for sustainable and smart city infrastructures.
-    <ul class="resume-item-list">
+    <ul class='resume-item-list'>
       <li>Researched energy-efficient IoT communication systems, carbon-free/low-carbon energy production, smart transportation, and building energy efficiency.</li>
       <li>Contributed to scientific publications by carrying out research and preparing manuscripts.</li>
       <li>Collaborated with interdisciplinary teams to ensure research outputs align with the Green Deal and sustainability principles.</li>
       <li>Worked on enhancing the technological readiness levels (TRL) of innovative solutions for urban ecosystems.</li>
-    </ul>
+    </ul></div>"
 
 - company: "Işık University"
   position: "Academic Assistant"
-  duration: "2017 – 2019"
-  summary: >
-    Assisted in course content development, exam preparation, and student support activities, ensuring effective
+  duration: "<div style='text-align:right;'>2017 – 2019</div>"
+  summary: "<div style='text-align: justify;'>Assisted in course content development, exam preparation, and student support activities, ensuring effective
     delivery of academic programs.
-    <ul class="resume-item-list">
+    <ul class='resume-item-list'>
       <li>Contributed to faculty research projects, supporting academic publications and reports.</li>
       <li>Represented the department at academic meetings.</li>
       <li>Contributed to coordination of administrative and academic processes within the faculty.</li>
-    </ul>
+    </ul></div>"
 
 - company: "Bahçeşehir University & Wissen Academy"
   position: "Software, Database & ERP Systems Intern Engineer"
-  duration: "2019 – 2020"
-  summary: >
-    Developed applications using C# .NET, HTML5, JavaScript, AngularJS, ASP.Net MVC, applying OOP, SOLID principles,
+  duration: "<div style='text-align:right;'>2019 – 2020</div>"
+  summary: "<div style='text-align: justify;'>Developed applications using C# .NET, HTML5, JavaScript, AngularJS, ASP.Net MVC, applying OOP, SOLID principles,
     and design patterns in real projects.
-    <ul class="resume-item-list">
+    <ul class='resume-item-list'>
       <li>Designed, managed, and optimized databases with MS-SQL, T-SQL, Entity Framework, and LINQ.</li>
       <li>Implemented functional developments in Dynamics 365 (AX, CRM, F&O) ERP systems, delivering solutions for enterprise processes.</li>
-    </ul>
+    </ul></div>"
 
 - company: "Dalgakıran Compressor Inc."
   position: "R&D Engineer Intern"
-  duration: "06/2017 – 07/2017"
-  summary: >
-    Contributed to engineering processes in new product development projects by performing design studies, performance tests, and technical analyses.
-    <ul class="resume-item-list">
+  duration: "<div style='text-align:right;'>06/2017 – 07/2017</div>"
+  summary: "<div style='text-align: justify;'>Contributed to engineering processes in new product development projects by performing design studies, performance tests, and technical analyses.
+    <ul class='resume-item-list'>
       <li>Supported coordination between R&D and production teams, ensuring effective transfer of design outputs into manufacturing processes.</li>
       <li>Conducted cost analysis, efficiency improvement, and lifecycle optimization studies for existing products.</li>
-    </ul>
+    </ul></div>"
 
 - company: "CNK Aviation Industry Inc."
   position: "Production Engineer Intern"
-  duration: "05/2016 – 06/2016"
-  summary: >
-    Conducted performance, quality control, and efficiency analyses of machinery and processes on the production line.
-    <ul class="resume-item-list">
+  duration: "<div style='text-align:right;'>05/2016 – 06/2016</div>"
+  summary: "<div style='text-align: justify;'>Conducted performance, quality control, and efficiency analyses of machinery and processes on the production line.
+    <ul class='resume-item-list'>
       <li>Actively contributed to product design and manufacturing processes, ensuring feasibility and integration of design outputs.</li>
       <li>Performed statistical reporting and process development focusing on material quality, scrap rates, and time management.</li>
-    </ul>
+    </ul></div>"
