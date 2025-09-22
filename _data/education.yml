@@ -1,1 +1,33 @@
-# Degree - degree: "Doctor of Philosophy - Ph.D. / Mechanical Engineering" uni: "Istanbul Technical University" year: "2023 – Present" awards: - award: "GPA: 3.81/4.00" - award: "High Honors distinction (in progress)" summary: "" - degree: "Master of Science - M.Sc. / Mechanical Engineering" uni: "Istanbul Technical University" year: "2020 – 2023" awards: - award: "GPA: 3.69/4.00" - award: "High Honors distinction" summary: "" - degree: "Bachelor of Science - B.Sc. / Civil Engineering (100% Scholarship)" uni: "F.M.V. Işık University" year: "2016 – 2019" awards: - award: "GPA: 3.87/4.00" - award: "Valedictorian, Civil Engineering Department" summary: "" - degree: "Bachelor of Science - B.Sc. / Mechanical Engineering (100% Scholarship)" uni: "F.M.V. Işık University" year: "2014 – 2018" awards: - award: "GPA: 3.85/4.00" - award: "Valedictorian, Faculty of Engineering" - award: "Valedictorian, Mechanical Engineering Department" summary: ""
+# Degree
+- degree: "Doctor of Philosophy - Ph.D. / Mechanical Engineering"
+  uni: "Istanbul Technical University"
+  year: "2023 – Present"
+  awards:
+    - award: "GPA: 3.81/4.00"
+    - award: "High Honors distinction (in progress)"
+  summary: ""
+
+- degree: "Master of Science - M.Sc. / Mechanical Engineering"
+  uni: "Istanbul Technical University"
+  year: "2020 – 2023"
+  awards:
+    - award: "GPA: 3.69/4.00"
+    - award: "High Honors distinction"
+  summary: ""
+
+- degree: "Bachelor of Science - B.Sc. / Civil Engineering (100% Scholarship)"
+  uni: "F.M.V. Işık University"
+  year: "2016 – 2019"
+  awards:
+    - award: "GPA: 3.87/4.00"
+    - award: "Valedictorian, Civil Engineering Department"
+  summary: ""
+
+- degree: "Bachelor of Science - B.Sc. / Mechanical Engineering (100% Scholarship)"
+  uni: "F.M.V. Işık University"
+  year: "2014 – 2018"
+  awards:
+    - award: "GPA: 3.85/4.00"
+    - award: "Valedictorian, Faculty of Engineering"
+    - award: "Valedictorian, Mechanical Engineering Department"
+  summary: ""
