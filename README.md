@@ -2,7 +2,7 @@
 
 Extract this ZIP and copy **the contents** (including `index.html`, `script.js`, `style.css`, `courses/`, `assets/` and `CNAME`) to the root of the GitHub Pages branch. The archive itself should not be uploaded as a single file to the repository. Preview locally with `python3 -m http.server 8000` from this directory; open `http://localhost:8000/`.
 
-The home page and all course pages share English, Turkish and German language selection. The course pages list individual PDFs and MATLAB files in the course's `materials/` directory. GitHub Pages URLs are relative, so they work on the custom domain and on a repository preview.
+The home page and all course pages share Turkish (default), English and German language selection. The course pages list individual PDFs and MATLAB files in the course's `materials/` directory. GitHub Pages URLs are relative, so they work on the custom domain and on a repository preview.
 
 ## Courses
 
@@ -20,4 +20,4 @@ Each course has `materials.json` and `index.html`. To add a file, put it in `cou
 
 Before making the repo public, confirm distribution rights for the included PDFs, especially publisher figures/chapters and the Micro Scale Heat Transfer chapter files. Permission from an instructor does not necessarily cover publisher-owned content. MIT OCW material is credited in its course page and supplied provenance; third-party parts identified as excluded from its Creative Commons license need separate review. The material was not reviewed for academic correctness.
 
-The individual resource files are below GitHub's 25 MiB browser-upload limit. The site package as a whole is larger than a single browser upload: extract it and upload files or use Git. GitHub Pages source size should also be monitored if more media are added. The original CV in `assets/BugraCV.pdf` and Fall 2026–2027 timetable placeholder remain to be reviewed.
+The individual resource files are below GitHub's 25 MiB browser-upload limit. The site package as a whole is larger than a single browser upload: extract it and upload files or use Git. GitHub Pages source size should also be monitored if more media are added. The five-page CV in `assets/BugraCV.pdf` has had the displayed GitHub URL and its PDF hyperlink annotations removed. The full academic profile now lists 12 projects (11 from the earlier site plus current doctoral research), 6 experience records, 4 degrees, skills, honors and associations. The Fall 2026–2027 timetable placeholder remains to be reviewed.
