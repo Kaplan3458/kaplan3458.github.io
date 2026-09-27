@@ -1,66 +1,23 @@
-# Resume template
+# Buğra Kaplan academic site — GitHub Pages package
 
-*A simple Jekyll + GitHub Pages powered resume template.*
+Extract this ZIP and copy **the contents** (including `index.html`, `script.js`, `style.css`, `courses/`, `assets/` and `CNAME`) to the root of the GitHub Pages branch. The archive itself should not be uploaded as a single file to the repository. Preview locally with `python3 -m http.server 8000` from this directory; open `http://localhost:8000/`.
 
-![img](images/screenshot.png)
+The home page and all course pages share English, Turkish and German language selection. The course pages list individual PDFs and MATLAB files in the course's `materials/` directory. GitHub Pages URLs are relative, so they work on the custom domain and on a repository preview.
 
-## Docs
+## Courses
 
-### Running locally
+- `thermodynamics`: 15 notes, 15 applications
+- `fluid-mechanics`: 12 notes, 16 applications, one supplementary archive and provenance files
+- `numerical-methods`: 25 notes, 7 applications and MATLAB source files
+- `heat-transfer`: overview with links to the next four courses
+- `me320`, `me420`, `me521`: weekly heat-transfer notes
+- `micro-scale-heat-transfer`: six user-supplied chapter PDFs
+- `engineering-mathematics`, `differential-equations`: placeholders for future resources
 
-To test locally, run the following in your terminal:
+Each course has `materials.json` and `index.html`. To add a file, put it in `courses/<slug>/materials/<category>/` and add a record with `file`, `title`, `category` (`notes`, `applications`, `matlab`, `source`) and `size` in bytes. `SOURCE_AND_RIGHTS.txt` documents the provenance of each populated course. The instructor's name on this website identifies the site's owner, not the authorship of all linked materials.
 
-1. Clone repo locally
-1. `bundle install`
-2. `bundle exec jekyll serve`
-3. Open your browser to `localhost:4000`
+## Publishing review
 
-### Running locally with Docker
+Before making the repo public, confirm distribution rights for the included PDFs, especially publisher figures/chapters and the Micro Scale Heat Transfer chapter files. Permission from an instructor does not necessarily cover publisher-owned content. MIT OCW material is credited in its course page and supplied provenance; third-party parts identified as excluded from its Creative Commons license need separate review. The material was not reviewed for academic correctness.
 
-To test locally with docker, run the following in your terminal after installing docker into your system:
-
-1. `docker image build -t resume-template .`
-2. `docker run --rm --name resume-template -v "$PWD":/home/app --network host resume-template`
-
-### Customizing
-
-First you'll want to fork the repo to your own account. Then clone it locally and customize, or use the GitHub web editor to customize.
-
-#### Options/configuration
-
-Most of the basic customization will take place in the `/_config.yml` file. Here is a list of customizations available via `/_config.yml`:
-
-[...write these out...]
-
-#### Editing content
-
-Most of the content configuration will take place in the `/_layouts/resume.html` file. Simply edit the markup there accordingly
-
-### Publishing to GitHub Pages for free
-
-[GitHub Pages](https://pages.github.com/) will host this for free with your GitHub account. Just make sure you're using a `gh-pages` branch, and the site will automatically be available at `yourusername.github.io/resume-template` (you can rename the repo to resume for your own use if you want it to be available at `yourusername.github.io/resume`). You can also add a CNAME if you want it to be available at a custom domain...
-
-### Configuring with your own domain name
-
-To setup your GH Pages site with a custom domain, [follow the instructions](https://help.github.com/articles/setting-up-a-custom-domain-with-github-pages/) on the GitHub Help site for that topic.
-
-### Themes
-
-Right now resume-template only has one theme. More are coming :soon: though. :heart:
-
-## Roadmap
-
-A feature roadmap is [available here](https://github.com/jglovier/resume-template/projects/1). If you features suggestions, please [open a new issue](https://github.com/jglovier/resume-template/issues/new).
-
-## Contributing
-
-If you spot a bug, or want to improve the code, or even make the dummy content better, you can do the following:
-
-1. [Open an issue](https://github.com/jglovier/resume-template/issues/new) describing the bug or feature idea
-2. Fork the project, make changes, and submit a pull request
-
-## License
-
-The code and styles are licensed under the MIT license. [See project license.](LICENSE) Obviously you should not use the content of this demo repo in your own resume. :wink:
-
-Disclaimer: Use of Lisa M. Simpson image and name used under [Fair Use](https://en.wikipedia.org/wiki/Fair_use) for educational purposes. Project license does not apply to use of this material.
+The individual resource files are below GitHub's 25 MiB browser-upload limit. The site package as a whole is larger than a single browser upload: extract it and upload files or use Git. GitHub Pages source size should also be monitored if more media are added. The original CV in `assets/BugraCV.pdf` and Fall 2026–2027 timetable placeholder remain to be reviewed.
