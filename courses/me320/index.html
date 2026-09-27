@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>ME 320 Isı Transferi · Buğra Kaplan</title>
+<meta name="description" content="İletim, taşınım ve ışınımla ısı transferine giriş: 36 ders notu.">
+<meta name="theme-color" content="#1e4d3a">
+<link rel="icon" type="image/png" href="../../favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&family=Source+Sans+3:wght@400;600;700&family=IBM+Plex+Mono:wght@500&display=swap">
+<style>:root {
+  --paper: #f7f3ea;
+  --paper-2: #efe8d8;
+  --card: #fcfaf5;
+  --ink: #1f2a24;
+  --ink-2: #3e4a43;
+  --muted: #66716a;
+  --line: #e3dccb;
+  --line-2: #d4cab3;
+  --accent: #1e4d3a;
+  --accent-hover: #2a6149;
+  --btn: #1e4d3a;
+  --btn-hover: #2a6149;
+  --btn-fg: #fbf8f1;
+  --ochre: #c8841e;
+  --ochre-ink: #8a5810;
+  --frame: #ebe3d0;
+  --header-bg: rgba(247, 243, 234, .93);
+  --feature: #1e4d3a;
+  --deep: #173b2d;
+  --deep-2: #1f4a38;
+  --footer: #12281f;
+  --on-dark: #efe8d8;
+  --on-dark-2: #bcc6b8;
+  --on-dark-line: #3b5c4b;
+  --ochre-light: #e2ac55;
+
+  --display: "Newsreader", "Iowan Old Style", Georgia, "Times New Roman", serif;
+  --sans: "Source Sans 3", "Segoe UI", Arial, Helvetica, sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, Menlo, Consolas, monospace;
+  --wrap: 1160px;
+  --header-h: 76px;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --paper: #131a16; --paper-2: #18211c; --card: #1b241f;
+    --ink: #ece6d8; --ink-2: #cfc8b8; --muted: #9ba59d;
+    --line: #2d3a33; --line-2: #3a4a41;
+    --accent: #8cc4a5; --accent-hover: #a8d6bc;
+    --btn: #2f6b51; --btn-hover: #3a7e60; --btn-fg: #f7f3ea;
+    --ochre: #d4953a; --ochre-ink: #e2ac55;
+    --frame: #1f2a24; --header-bg: rgba(19, 26, 22, .92);
+    --feature: #1d3a2d; --deep: #0f231a; --deep-2: #17342a; --footer: #0b1812;
+  }
+}
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --paper: #131a16; --paper-2: #18211c; --card: #1b241f;
+  --ink: #ece6d8; --ink-2: #cfc8b8; --muted: #9ba59d;
+  --line: #2d3a33; --line-2: #3a4a41;
+  --accent: #8cc4a5; --accent-hover: #a8d6bc;
+  --btn: #2f6b51; --btn-hover: #3a7e60; --btn-fg: #f7f3ea;
+  --ochre: #d4953a; --ochre-ink: #e2ac55;
+  --frame: #1f2a24; --header-bg: rgba(19, 26, 22, .92);
+  --feature: #1d3a2d; --deep: #0f231a; --deep-2: #17342a; --footer: #0b1812;
+}
+
+
+*, *::before, *::after { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body { margin: 0; color: var(--ink); background: var(--paper); font: 17px/1.65 var(--sans); }
+a { color: inherit; text-underline-offset: 4px; }
+button, input { font: inherit; color: inherit; }
+:focus-visible { outline: 2px solid var(--ochre); outline-offset: 3px; }
+[hidden] { display: none !important; }
+h1, h2 { font-family: var(--display); font-weight: 400; margin: 0; text-wrap: balance; }
+.wrap { max-width: 1080px; margin: 0 auto; padding-left: 32px; padding-right: 32px; }
+.sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+.mono { font-family: var(--mono); }
+
+.site-header { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 10; background: var(--header-bg); border-bottom: 1px solid var(--line); -webkit-backdrop-filter: blur(12px); backdrop-filter: blur(12px); }
+.header-inner { max-width: 1260px; margin: 0 auto; padding: 12px 32px; display: flex; align-items: center; justify-content: space-between; gap: 20px; min-height: 66px; }
+.brand { display: flex; align-items: center; gap: 12px; text-decoration: none; font: 600 14px/1 var(--sans); letter-spacing: .12em; }
+.brand-mark { display: grid; place-items: center; width: 38px; height: 38px; border-radius: 50%; color: var(--btn-fg); background: var(--btn); box-shadow: 0 0 0 3px var(--paper), 0 0 0 4px var(--ochre); font: italic 500 15px/1 var(--display); letter-spacing: .02em; }
+.language { display: flex; gap: 4px; }
+.language button { border: 1px solid transparent; background: transparent; padding: 5px 11px; border-radius: 999px; color: var(--muted); font-size: 12.5px; font-weight: 600; cursor: pointer; }
+.language button[aria-pressed="true"] { border-color: var(--line-2); background: var(--card); color: var(--ink); }
+
+.course-page { padding-top: 48px; padding-bottom: 96px; min-height: 70vh; }
+.course-back { display: inline-block; color: var(--accent); font-weight: 700; text-decoration: none; margin-bottom: 36px; font-size: 15px; }
+.course-back:hover { text-decoration: underline; text-decoration-color: var(--ochre); }
+.code { font: 500 13px/1 var(--mono); letter-spacing: .08em; color: var(--ochre-ink); margin: 0 0 12px; }
+.course-page h1 { font-size: clamp(38px, 5.4vw, 62px); line-height: 1.08; letter-spacing: -.015em; width: fit-content; max-width: 100%; }
+.course-page h1::after { content: ""; display: block; width: 100%; height: 2px; background: var(--ochre); margin-top: 18px; }
+.course-lead { color: var(--ink-2); font-size: 18px; margin: 22px 0 40px; max-width: 640px; }
+
+.search { margin: 0 0 36px; max-width: 520px; }
+.search input { width: 100%; padding: 12px 18px; border: 1px solid var(--line-2); border-radius: 999px; background: var(--card); color: var(--ink); font-size: 15.5px; }
+.search input::placeholder { color: var(--muted); }
+.search input:focus { outline: none; border-color: var(--accent); box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent) 18%, transparent); }
+
+.material-group { margin: 0 0 46px; }
+.material-group h2 { display: flex; align-items: baseline; gap: 12px; font-size: 28px; border-bottom: 1px solid var(--line); padding-bottom: 12px; margin: 0 0 14px; }
+.material-group h2 .count { font: 500 13px var(--mono); color: var(--ochre-ink); }
+.material-list { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px 12px; }
+.material-list.code-list { grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); }
+.mat { display: flex; align-items: center; gap: 14px; height: 100%; padding: 13px 16px; background: var(--card); border: 1px solid var(--line); border-radius: 4px; text-decoration: none; transition: border-color .15s, transform .15s; }
+.mat:hover, .mat:focus-visible { border-color: var(--accent); transform: translateY(-1px); }
+.mat .n { flex: none; min-width: 26px; font: 500 13px/1 var(--mono); color: var(--ochre-ink); font-variant-numeric: tabular-nums; }
+.mat .t { flex: 1; min-width: 0; font-weight: 600; font-size: 15px; line-height: 1.35; overflow-wrap: anywhere; }
+.mat .t.mono { font-weight: 500; font-size: 13.5px; }
+.mat .x { flex: none; font: 500 10.5px/1 var(--mono); letter-spacing: .06em; color: var(--muted); border: 1px solid var(--line-2); border-radius: 999px; padding: 4px 7px; }
+.mat-code { padding: 10px 14px; }
+
+.related { display: flex; flex-wrap: wrap; gap: 10px; margin: 8px 0 40px; }
+.related h2 { flex-basis: 100%; font-size: 22px; margin: 0 0 6px; }
+.related-link { padding: 9px 16px; border: 1px solid var(--line-2); border-radius: 999px; text-decoration: none; color: var(--accent); font-weight: 600; font-size: 15px; }
+.related-link:hover { border-color: var(--accent); background: var(--card); }
+
+.source-note { border-top: 1px solid var(--line); padding-top: 22px; margin-top: 30px; color: var(--muted); font-size: 14.5px; }
+.source-note h2 { font-size: 20px; color: var(--ink); margin: 0 0 6px; }
+.source-note p { margin: 0 0 8px; }
+.source-note ul { margin: 0; padding-left: 18px; }
+.source-note a { color: var(--accent); font-family: var(--mono); font-size: 13px; }
+
+.course-empty { background: var(--paper-2); padding: 20px 22px; border-left: 2px solid var(--ochre); color: var(--ink-2); max-width: 640px; }
+
+.ov-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
+.ov-card { display: flex; flex-direction: column; gap: 10px; padding: 26px 28px; background: var(--card); border: 1px solid var(--line); border-radius: 4px; text-decoration: none; transition: border-color .2s, transform .2s; }
+.ov-card:hover { border-color: var(--accent); transform: translateY(-2px); }
+.ov-card .code { margin: 0; font-size: 12px; }
+.ov-card strong { font: 400 26px/1.2 var(--display); }
+.ov-card .ov-lead { color: var(--ink-2); font-size: 15.5px; }
+.ov-card .go { margin-top: auto; color: var(--accent); font-weight: 700; font-size: 14.5px; }
+
+footer { background: var(--footer); color: var(--on-dark-2); padding: 26px 0; font-size: 14px; }
+footer a { color: var(--on-dark); text-decoration-color: var(--on-dark-line); }
+.footer-row { display: flex; justify-content: space-between; gap: 16px; }
+
+@media (max-width: 700px) {
+  body { font-size: 16.5px; }
+  .wrap, .header-inner { padding-left: 20px; padding-right: 20px; }
+  .course-page { padding-top: 32px; }
+  .material-list, .ov-grid { grid-template-columns: 1fr; }
+  .material-list.code-list { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+</style>
+</head>
+<body data-title-tr="ME 320 Isı Transferi · Buğra Kaplan" data-title-en="ME 320 Heat Transfer · Buğra Kaplan">
+<header class="site-header"><div class="header-inner">
+  <a class="brand" href="../../#courses"><span class="brand-mark" aria-hidden="true">BK</span><span>BUĞRA KAPLAN</span></a>
+  <div class="language" role="group" aria-label="Dil / Language">
+    <button type="button" data-lang="tr" aria-pressed="true">TR</button><button type="button" data-lang="en" aria-pressed="false">EN</button>
+  </div>
+</div></header>
+<main class="wrap course-page">
+  <a class="course-back" href="../../#courses">← <span data-tr="Tüm dersler" data-en="All courses">Tüm dersler</span></a>
+  <p class="code">ME 320</p>
+  <h1><span data-tr="Isı Transferi" data-en="Heat Transfer">Isı Transferi</span></h1>
+  <p class="course-lead"><span data-tr="İletim, taşınım ve ışınımla ısı transferine giriş: 36 ders notu." data-en="An introduction to conduction, convection and radiation: 36 lectures.">İletim, taşınım ve ışınımla ısı transferine giriş: 36 ders notu.</span></p>
+  <div class="search"><label for="q" class="sr"><span data-tr="Materyallerde ara" data-en="Search materials">Materyallerde ara</span></label><input id="q" type="search" autocomplete="off" data-ph-tr="Materyallerde ara: ör. fins, bölüm 3" data-ph-en="Search materials, e.g. fins, chapter 3" placeholder="Materyallerde ara: ör. fins, bölüm 3"></div><p id="none" class="course-empty" hidden><span data-tr="Aramanızla eşleşen materyal yok." data-en="No materials match your search.">Aramanızla eşleşen materyal yok.</span></p><section class="material-group"><h2><span data-tr="Ders notları" data-en="Lecture notes">Ders notları</span> <span class="count">36</span></h2><ul class="material-list"><li><a class="mat" href="materials/Ders_Notlari/Lecture%201%20-%20Introduction%20to%20Heat%20Transfer.pdf" target="_blank" rel="noopener"><span class="n">1</span><span class="t">Introduction to Heat Transfer</span><span class="x">PDF</span></a></li><li><a class="mat" href="materials/Ders_Notlari/Lecture%202%20-%20Fouriers%20Law%20of%20Heat%20Conduction.pdf" target="_blank" rel="noopener"><span class="n">2</span><span class="t">Fouriers Law of Heat Conduction</span><span class="x">PDF</span></a></li><li><a class="mat" href="materials/Ders_Notlari/Lecture%203%20-%20The%20Heat%20Equation.pdf" target="_blank" rel="noopener"><span class="n">3</span><span class="t">The Heat Equation</span><span class="x">PDF</span></a></li><li><a class="mat" href="materials/Ders_Notlari/Lecture%204%20-%201D%20Steady%20Heat%20Conduction.pdf" target="_blank" rel="noopener"><span class="n">4</span><span class="t">1D Steady Heat Conduction</span><span class="x">PDF</span></a></li><li><a class="mat" href="materials/Ders_Notlari/Lecture%205%20-%20Thermal%20Resistance.pdf" target="_blank" rel="noopener"><span class="n">5</span><span class="t">Thermal Resistance</span><span class="x">PDF</span></a></li><li><a class="mat" href="materials/Ders_Notlari/Lecture%206%20-%20Composite%20Problems.pdf" target="_blank" rel="noopener"><span class="n">6</span><span class="t">Composite Problems</span><span class="x">PDF</span></a></li><li><a class="mat" href="materials/Ders_Notlari/Lecture%207%20-%20Conduction%20with%20Heat%20Generation.pdf" target="_blank" rel="noopener"><span class="n">7</span><span class="t">Conduction with Heat Generation</span><span class="x">PDF</span></a></li><li><a class="mat" href="materials/Ders_Notlari/Lecture%208%20-%20Conduction%20with%20Heat%20Generation%20Continued.pdf" target="_blank" rel="noopener"><span class="n">8</span><span class="t">Conduction with Heat Generation Continued</span><span class="x">PDF</span></a></li><li><a class="mat" href="materials/Ders_Notlari/Lecture%209%20-%20Fins.pdf" target="_blank" rel="noopener"><span class="n">9</span><span class="t">Fins</span><span class="x">PDF</span></a></li><li><a class="mat" href="materials/Ders_Notlari/Lecture%2010%20-%20Fins%20Continued.pdf" target="_blank" rel="noopener"><span class="n">10</span><span class="t">Fins Continued</span><span class="x">PDF</span></a></li><li><a class="mat" href="materials/Ders_Notlari/Lecture%2011%20-%20Shape%20Factor.pdf" target="_blank" rel="noopener"><span class="n">11</span><span class="t">Shape Factor</span><span class="x">PDF</span></a></li><li><a class="mat" href="materials/Ders_Notlari/Lecture%2012%20-%20Lumped%20Capacitance.pdf" target="_blank" rel="noopener"><span class="n">12</span><span class="t">Lumped Capacitance</span><span class="x">PDF</span></a></li><li><a class="mat" href="materials/Ders_Notlari/Lecture%2013%20-%20Transient%20Conduction%20-%20Semi-Infinite%20Body.pdf" target="_blank" rel="noopener"><span class="n">13</span><span class="t">Transient Conduction - Semi-Infinite Body</span><span class="x">PDF</span></a></li><li><a class="mat" href="materials/Ders_Notlari/Lecture%2014%20-%20Transient%20Conduction%20-%20Two%20Semi-Infinite%20Bodies.pdf" target="_blank" rel="noopener"><span class="n">14</span><span class="t">Transient Conduction - Two Semi-Infinite Bodies</span><span class="x">PDF</span></a></li><li><a class="mat" href="materials/Ders_Notlari/Lecture%2015%20-%20Transient%20Heat%20Conduction%20in%20Finite%20Bodies.pdf" target="_blank" rel="noopener"><span class="n">15</span><span class="t">Transient Heat Conduction in Finite Bodies</span><span class="x">PDF</span></a></li><li><a class="mat" href="materials/Ders_Notlari/Lecture%2016%20-%20Transient%20Heat%20Conduction%20in%201D%20Finite%20Bodies.pdf" target="_blank" rel="noopener"><span class="n">16</span><span class="t">Transient Heat Conduction in 1D Finite Bodies</span><span class="x">PDF</span></a></li><li><a class="mat" href="materials/Ders_Notlari/Lecture%2017%20-%20Transient%20Heat%20Conduction%20in%202D%20and%203D%20Finite%20Bodies.pdf" target="_blank" rel="noopener"><span class="n">17</span><span class="t">Transient Heat Conduction in 2D and 3D Finite Bodies</span><span class="x">PDF</span></a></li><li><a class="mat" href="materials/Ders_Notlari/Lecture%2018%20-%20Numerical%20Analysis%20of%20Steady%20Heat%20Conduction.pdf" target="_blank" rel="noopener"><span class="n">18</span><span class="t">Numerical Analysis of Steady Heat Conduction</span><span class="x">PDF</span></a></li><li><a class="mat" href="materials/Ders_Notlari/Lecture%2019%20-%20Numerical%20Analysis%20of%20Transient%20Heat%20Conduction%20Continued.pdf" target="_blank" rel="noopener"><span class="n">19</span><span class="t">Numerical Analysis of Transient Heat Conduction Continued</span><span class="x">PDF</span></a></li><li><a class="mat" href="materials/Ders_Notlari/Lecture%2020%20-%20Convection%20Heat%20Transfer%20Introduction.pdf" target="_blank" rel="noopener"><span class="n">20</span><span class="t">Convection Heat Transfer Introduction</span><span class="x">PDF</span></a></li><li><a class="mat" href="materials/Ders_Notlari/Lecture%2021%20-%20Laminar%20Flow%20Over%20a%20Flat%20Plate.pdf" target="_blank" rel="noopener"><span class="n">21</span><span class="t">Laminar Flow Over a Flat Plate</span><span class="x">PDF</span></a></li><li><a class="mat" href="materials/Ders_Notlari/Lecture%2022%20-%20Laminar%20Flow%20Over%20a%20Flat%20Plate%20Continued.pdf" target="_blank" rel="noopener"><span class="n">22</span><span class="t">Laminar Flow Over a Flat Plate Continued</span><span class="x">PDF</span></a></li><li><a class="mat" href="materials/Ders_Notlari/Lecture%2023%20-%20Heat%20Transfer%20for%20Laminar%20Flow%20Over%20a%20Flat%20Plate.pdf" target="_blank" rel="noopener"><span class="n">23</span><span class="t">Heat Transfer for Laminar Flow Over a Flat Plate</span><span class="x">PDF</span></a></li><li><a class="mat" href="materials/Ders_Notlari/Lecture%2024%20-%20Nusselt%20Number%20Correlations.pdf" target="_blank" rel="noopener"><span class="n">24</span><span class="t">Nusselt Number Correlations</span><span class="x">PDF</span></a></li><li><a class="mat" href="materials/Ders_Notlari/Lecture%2025%20-%20Internal%20Flow%20Convection.pdf" target="_blank" rel="noopener"><span class="n">25</span><span class="t">Internal Flow Convection</span><span class="x">PDF</span></a></li><li><a class="mat" href="materials/Ders_Notlari/Lecture%2026%20-%20Turbulence.pdf" target="_blank" rel="noopener"><span class="n">26</span><span class="t">Turbulence</span><span class="x">PDF</span></a></li><li><a class="mat" href="materials/Ders_Notlari/Lecture%2027%20-%20Mixed%20Flow.pdf" target="_blank" rel="noopener"><span class="n">27</span><span class="t">Mixed Flow</span><span class="x">PDF</span></a></li><li><a class="mat" href="materials/Ders_Notlari/Lecture%2028%20-%20Convection%20Examples.pdf" target="_blank" rel="noopener"><span class="n">28</span><span class="t">Convection Examples</span><span class="x">PDF</span></a></li><li><a class="mat" href="materials/Ders_Notlari/Lecture%2029%20-%20Convection%20Examples%20Continued.pdf" target="_blank" rel="noopener"><span class="n">29</span><span class="t">Convection Examples Continued</span><span class="x">PDF</span></a></li><li><a class="mat" href="materials/Ders_Notlari/Lecture%2030%20-%20Natural%20Convection.pdf" target="_blank" rel="noopener"><span class="n">30</span><span class="t">Natural Convection</span><span class="x">PDF</span></a></li><li><a class="mat" href="materials/Ders_Notlari/Lecture%2031%20-%20Thermal%20Radiation.pdf" target="_blank" rel="noopener"><span class="n">31</span><span class="t">Thermal Radiation</span><span class="x">PDF</span></a></li><li><a class="mat" href="materials/Ders_Notlari/Lecture%2032%20-%20Total%20Emissive%20Power.pdf" target="_blank" rel="noopener"><span class="n">32</span><span class="t">Total Emissive Power</span><span class="x">PDF</span></a></li><li><a class="mat" href="materials/Ders_Notlari/Lecture%2033%20-%20View%20Factor%20Analysis%20and%20Blackbody%20Exchange.pdf" target="_blank" rel="noopener"><span class="n">33</span><span class="t">View Factor Analysis and Blackbody Exchange</span><span class="x">PDF</span></a></li><li><a class="mat" href="materials/Ders_Notlari/Lecture%2034%20-%20Gray%20Body%20Exchange.pdf" target="_blank" rel="noopener"><span class="n">34</span><span class="t">Gray Body Exchange</span><span class="x">PDF</span></a></li><li><a class="mat" href="materials/Ders_Notlari/Lecture%2035%20-%20Gray%20Body%20Enclosures.pdf" target="_blank" rel="noopener"><span class="n">35</span><span class="t">Gray Body Enclosures</span><span class="x">PDF</span></a></li><li><a class="mat" href="materials/Ders_Notlari/Lecture%2036%20-%20Multi-Mode%20Heat%20Transfer%20and%20Solar.pdf" target="_blank" rel="noopener"><span class="n">36</span><span class="t">Multi-Mode Heat Transfer and Solar</span><span class="x">PDF</span></a></li></ul></section><nav class="related" aria-label="İlgili dersler"><h2><span data-tr="İlgili ısı transferi dersleri" data-en="Related heat transfer courses">İlgili ısı transferi dersleri</span></h2><a class="related-link" href="../me420/">ME 420 <span data-tr="Orta Düzey Isı Transferi" data-en="Intermediate Heat Transfer">Orta Düzey Isı Transferi</span></a><a class="related-link" href="../me521/">ME 521 <span data-tr="Taşınımla Isı Transferi" data-en="Convective Heat Transfer">Taşınımla Isı Transferi</span></a><a class="related-link" href="../micro-scale-heat-transfer/"> <span data-tr="Mikro Ölçekte Isı Transferi" data-en="Micro-Scale Heat Transfer">Mikro Ölçekte Isı Transferi</span></a></nav><section class="source-note"><h2><span data-tr="Kaynak ve kullanım koşulları" data-en="Sources and terms of use">Kaynak ve kullanım koşulları</span></h2><p><span data-tr="Materyallerin kaynakları, lisansları ve yapılan değişiklikler aşağıdaki dosyalarda yer alıyor." data-en="The sources, licences and any changes to these materials are listed in the files below.">Materyallerin kaynakları, lisansları ve yapılan değişiklikler aşağıdaki dosyalarda yer alıyor.</span></p><ul><li><a href="materials/Kaynak_ve_Lisans/KAYNAK_VE_KULLANIM.txt" target="_blank" rel="noopener">KAYNAK_VE_KULLANIM.txt</a></li><li><a href="SOURCE_AND_RIGHTS.txt" target="_blank" rel="noopener">SOURCE_AND_RIGHTS.txt</a></li></ul></section>
+</main>
+<footer><div class="wrap footer-row"><span>© Buğra Kaplan</span><a href="../../#contact"><span data-tr="İletişim" data-en="Contact">İletişim</span></a></div></footer>
+<script>
+(function(){
+  var lang='tr'; try{ lang=localStorage.getItem('bk-language')||'tr'; }catch(e){}
+  if(lang!=='en') lang='tr';
+  function apply(){
+    document.documentElement.lang=lang;
+    document.querySelectorAll('[data-tr]').forEach(function(el){ el.textContent=el.getAttribute('data-'+lang); });
+    document.querySelectorAll('[data-ph-tr]').forEach(function(el){ el.placeholder=el.getAttribute('data-ph-'+lang); });
+    document.querySelectorAll('[data-lang]').forEach(function(b){ b.setAttribute('aria-pressed', String(b.dataset.lang===lang)); });
+    document.title=document.body.getAttribute('data-title-'+lang);
+  }
+  document.addEventListener('click',function(ev){
+    var b=ev.target.closest('[data-lang]'); if(!b) return;
+    lang=b.dataset.lang; try{ localStorage.setItem('bk-language',lang); }catch(e){} apply();
+  });
+  var q=document.getElementById('q');
+  if(q) q.addEventListener('input',function(){
+    var v=q.value.trim().toLocaleLowerCase('tr');
+    document.querySelectorAll('.material-group').forEach(function(g){
+      var shown=0;
+      g.querySelectorAll('.mat').forEach(function(a){
+        var hit=!v || a.textContent.toLocaleLowerCase('tr').indexOf(v)>-1;
+        a.parentElement.hidden=!hit; if(hit) shown++;
+      });
+      g.hidden=shown===0;
+    });
+    var none=document.getElementById('none'); if(none) none.hidden=!!document.querySelector('.material-group:not([hidden])');
+  });
+  apply();
+})();
+</script>
+</body>
+</html>
