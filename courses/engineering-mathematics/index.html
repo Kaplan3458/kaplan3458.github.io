@@ -84,6 +84,7 @@ h1, h2 { font-family: var(--display); font-weight: 400; margin: 0; text-wrap: ba
 .brand { display: flex; align-items: center; gap: 12px; text-decoration: none; font: 600 14px/1 var(--sans); letter-spacing: .12em; }
 .brand-mark { display: grid; place-items: center; width: 38px; height: 38px; border-radius: 50%; color: var(--btn-fg); background: var(--btn); box-shadow: 0 0 0 3px var(--paper), 0 0 0 4px var(--ochre); font: italic 500 15px/1 var(--display); letter-spacing: .02em; }
 .language { display: flex; gap: 4px; }
+.language button img { width: 18px; height: 13px; display: inline-block; vertical-align: middle; margin-right: 4px; border-radius: 2px; }
 .language button { border: 1px solid transparent; background: transparent; padding: 5px 11px; border-radius: 999px; color: var(--muted); font-size: 12.5px; font-weight: 600; cursor: pointer; }
 .language button[aria-pressed="true"] { border-color: var(--line-2); background: var(--card); color: var(--ink); }
 
@@ -101,6 +102,7 @@ h1, h2 { font-family: var(--display); font-weight: 400; margin: 0; text-wrap: ba
 .search input:focus { outline: none; border-color: var(--accent); box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent) 18%, transparent); }
 
 .material-group { margin: 0 0 46px; }
+.folder-icon { width: 26px; height: 24px; flex: none; color: var(--ochre-ink); }
 .material-group h2 { display: flex; align-items: baseline; gap: 12px; font-size: 28px; border-bottom: 1px solid var(--line); padding-bottom: 12px; margin: 0 0 14px; }
 .material-group h2 .count { font: 500 13px var(--mono); color: var(--ochre-ink); }
 .material-list { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px 12px; }
@@ -148,31 +150,31 @@ footer a { color: var(--on-dark); text-decoration-color: var(--on-dark-line); }
 @media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
 </style>
 </head>
-<body data-title-tr="Mühendislik Matematiği · Buğra Kaplan" data-title-en="Engineering Mathematics · Buğra Kaplan">
+<body data-title-tr="Mühendislik Matematiği · Buğra Kaplan" data-title-de="Ingenieurmathematik · Buğra Kaplan" data-title-en="Engineering Mathematics · Buğra Kaplan">
 <header class="site-header"><div class="header-inner">
-  <a class="brand" href="../../#courses"><span class="brand-mark" aria-hidden="true">BK</span><span>BUĞRA KAPLAN</span></a>
-  <div class="language" role="group" aria-label="Dil / Language">
-    <button type="button" data-lang="tr" aria-pressed="true">TR</button><button type="button" data-lang="en" aria-pressed="false">EN</button>
+  <a class="brand" href="../../courses.html"><span class="brand-mark" aria-hidden="true">BK</span><span>BUĞRA KAPLAN</span></a>
+  <div class="language" role="group" aria-label="Dil / Language / Sprache">
+    <button type="button" data-lang="tr" aria-pressed="true"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2MCA0MCI+PHBhdGggZmlsbD0iI2UzMGExNyIgZD0iTTAgMGg2MHY0MEgweiIvPjxjaXJjbGUgZmlsbD0iI2ZmZiIgY3g9IjIyIiBjeT0iMjAiIHI9IjEwIi8+PGNpcmNsZSBmaWxsPSIjZTMwYTE3IiBjeD0iMjUiIGN5PSIyMCIgcj0iOCIvPjxwYXRoIGZpbGw9IiNmZmYiIGQ9Im0zNyAxMyAxLjcgNS4yaDUuNWwtNC40IDMuMiAxLjcgNS4yLTQuNS0zLjItNC40IDMuMiAxLjctNS4yLTQuNC0zLjJoNS41eiIvPjwvc3ZnPg==" alt=""> TR</button><button type="button" data-lang="en" aria-pressed="false"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2MCA0MCI+PHBhdGggZmlsbD0iIzAxMjE2OSIgZD0iTTAgMGg2MHY0MEgweiIvPjxwYXRoIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLXdpZHRoPSI5IiBkPSJNMCAwIDYwIDQwTTYwIDAgMCA0MCIvPjxwYXRoIHN0cm9rZT0iI2M4MTAyZSIgc3Ryb2tlLXdpZHRoPSI0IiBkPSJNMCAwIDYwIDQwTTYwIDAgMCA0MCIvPjxwYXRoIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLXdpZHRoPSIxMyIgZD0iTTMwIDB2NDBNMCAyMGg2MCIvPjxwYXRoIHN0cm9rZT0iI2M4MTAyZSIgc3Ryb2tlLXdpZHRoPSI3IiBkPSJNMzAgMHY0ME0wIDIwaDYwIi8+PC9zdmc+" alt=""> EN</button><button type="button" data-lang="de" aria-pressed="false"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2MCA0MCI+PHBhdGggZmlsbD0iIzAwMCIgZD0iTTAgMGg2MHYxMy4zNEgweiIvPjxwYXRoIGZpbGw9IiNkZDAwMDAiIGQ9Ik0wIDEzLjMzaDYwdjEzLjM0SDB6Ii8+PHBhdGggZmlsbD0iI2ZmY2UwMCIgZD0iTTAgMjYuNjZoNjBWNDBIMHoiLz48L3N2Zz4=" alt=""> DE</button>
   </div>
 </div></header>
 <main class="wrap course-page">
-  <a class="course-back" href="../../#courses">← <span data-tr="Tüm dersler" data-en="All courses">Tüm dersler</span></a>
+  <a class="course-back" href="../../courses.html">← <span data-tr="Tüm dersler" data-en="All courses" data-de="Alle Lehrveranstaltungen">Tüm dersler</span></a>
   
-  <h1><span data-tr="Mühendislik Matematiği" data-en="Engineering Mathematics">Mühendislik Matematiği</span></h1>
+  <h1><span data-tr="Mühendislik Matematiği" data-en="Engineering Mathematics" data-de="Ingenieurmathematik">Mühendislik Matematiği</span></h1>
   <p class="course-lead"><span data-tr="Ders materyalleri hazırlanıyor." data-en="Course materials in preparation.">Ders materyalleri hazırlanıyor.</span></p>
   <p class="course-empty"><span data-tr="Bu dersin materyalleri hazırlanıyor. Yakında bu sayfada yayımlanacak." data-en="Materials for this course are in preparation and will be posted here soon.">Bu dersin materyalleri hazırlanıyor. Yakında bu sayfada yayımlanacak.</span></p>
 </main>
-<footer><div class="wrap footer-row"><span>© Buğra Kaplan</span><a href="../../#contact"><span data-tr="İletişim" data-en="Contact">İletişim</span></a></div></footer>
+<footer><div class="wrap footer-row"><span>© Buğra Kaplan</span><a href="../../contact.html"><span data-tr="İletişim" data-en="Contact" data-de="Kontakt">İletişim</span></a></div></footer>
 <script>
 (function(){
   var lang='tr'; try{ lang=localStorage.getItem('bk-language')||'tr'; }catch(e){}
-  if(lang!=='en') lang='tr';
+  if(!['tr','en','de'].includes(lang)) lang='tr';
   function apply(){
     document.documentElement.lang=lang;
-    document.querySelectorAll('[data-tr]').forEach(function(el){ el.textContent=el.getAttribute('data-'+lang); });
-    document.querySelectorAll('[data-ph-tr]').forEach(function(el){ el.placeholder=el.getAttribute('data-ph-'+lang); });
+    document.querySelectorAll('[data-tr]').forEach(function(el){ el.textContent=el.getAttribute('data-'+lang) || el.getAttribute('data-en'); });
+    document.querySelectorAll('[data-ph-tr]').forEach(function(el){ el.placeholder=el.getAttribute('data-ph-'+lang) || el.getAttribute('data-ph-en'); });
     document.querySelectorAll('[data-lang]').forEach(function(b){ b.setAttribute('aria-pressed', String(b.dataset.lang===lang)); });
-    document.title=document.body.getAttribute('data-title-'+lang);
+    document.title=document.body.getAttribute('data-title-'+lang) || document.body.getAttribute('data-title-en');
   }
   document.addEventListener('click',function(ev){
     var b=ev.target.closest('[data-lang]'); if(!b) return;
