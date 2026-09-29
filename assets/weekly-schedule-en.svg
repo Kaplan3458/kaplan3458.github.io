@@ -4,7 +4,7 @@
 <rect width="1500" height="890" fill="#173b2d"/>
 <rect x="0" y="0" width="1500" height="8" fill="#d7a354"/>
 <path d="M70 72h38" stroke="#d7a354" stroke-width="3"/><text x="124" y="78" fill="#e9c987" font-size="17" font-weight="700" letter-spacing="3">BUĞRA KAPLAN  /  ACADEMIC CALENDAR</text>
-<text x="70" y="149" fill="#f7f3ea" font-size="57" class="serif">Weekly teaching schedule</text>
+<text x="70" y="149" fill="#f7f3ea" font-size="57" class="serif">Fall 2026–2027 Teaching Schedule</text>
 <text x="72" y="190" fill="#c3d2c6" font-size="21">Fall 2026–2027  <tspan fill="#d7a354">·</tspan>  Işık University &amp; Istanbul Technical University</text>
 <rect x="70" y="228" width="1360" height="600" rx="13" fill="#1b3e30" stroke="#557362"/>
 <path d="M83 228h1334a13 13 0 0 1 13 13v62H70v-62a13 13 0 0 1 13-13z" fill="#224a39"/>
@@ -82,6 +82,5 @@
 <path d="M284 662l10-6 10 6m-20 2h20m-17 0v12m7-12v12m7-12v12m-18 2h22" transform="translate(0,-10)" fill="none" stroke="#edc57c" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
 <text x="321" y="664" fill="#f7f3ea" font-size="19" class="serif" font-style="italic">ITU Gümüşsuyu Campus · Mechanical Engineering · Room 506</text>
 <text x="321" y="690" fill="#edc57c" font-size="15" font-weight="700" class="mono">08:30–16:30</text>
-<text x="70" y="866" fill="#b6c8ba" font-size="16">Course codes and times follow the supplied timetable.</text>
 <text x="1430" y="866" text-anchor="end" fill="#e9c987" font-size="16" font-weight="700" letter-spacing="2">SCHEDULE</text>
 </svg>
