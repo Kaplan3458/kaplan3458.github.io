@@ -1,0 +1,10 @@
+SOURCE AND LICENSE / KAYNAK VE LİSANS
+MIT OpenCourseWare, 2.29 Numerical Fluid Mechanics, Spring 2015.
+Instructor: Prof. Pierre Lermusiaux
+Source: https://ocw.mit.edu/courses/2-29-numerical-fluid-mechanics-spring-2015/
+License: https://creativecommons.org/licenses/by-nc-sa/4.0/
+The MATLAB files are unchanged. They are organized by lecture and problem set; no authorship or endorsement by the current redistributor is implied.
+
+Lecture-linked MATLAB ZIPs: 11 (lectures 1, 2, 3, 4, 5, 6, 8, 10, 13, 14, 20)
+Problem-set supporting sources: 1, 2, 3, 5, 6
+Individual source files: 56

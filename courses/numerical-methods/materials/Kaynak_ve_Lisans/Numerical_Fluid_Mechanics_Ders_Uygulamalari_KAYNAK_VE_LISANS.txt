@@ -1,0 +1,20 @@
+SOURCE AND LICENSE / KAYNAK VE LISANS
+
+Original course: MIT OpenCourseWare, 2.29 Numerical Fluid Mechanics, Spring 2015.
+Instructor: Prof. Pierre Lermusiaux.
+Original course page: https://ocw.mit.edu/courses/2-29-numerical-fluid-mechanics-spring-2015/
+License for MIT OCW material: CC BY-NC-SA 4.0
+https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+Changes: PDF files were separated into lecture notes and problem-set packages. The MIT seal on lecture slide templates, institutional headers on problem sets, and instructor initials/names in template credits were removed. The scientific content, source citations, embedded image credits, copyright notices, and MIT OCW attribution pages were retained. This redistribution is not endorsed by MIT or the original instructor. Third-party content marked as excluded from the Creative Commons license remains subject to its own rights.
+
+Duzenleme: PDF dosyalari ders notlari ve uygulamalar olarak ayrildi. Ders slaytlarindaki MIT muhru, problem setlerinin kurum ustbilgileri ve sablonlardaki hoca adi/bas harfleri cikarildi. Bilimsel icerik, kaynak gosterimleri, gorsel kredileri, telif bildirimleri ve MIT OCW kaynak sayfalari korundu.
+
+FILES / DOSYALAR
+Problem_Set_01.pdf  <-  static_resources/84a6d00b03f3d9b3860dcfc1fe58eafd_MIT2_29S15_PS1_SP2015_v3.pdf  [edited elements: 3]
+Problem_Set_03_Node_Ordering_Guide.pdf  <-  static_resources/cc4c949436993bc56aa209d1dcf31ad8_MIT2_29S15_Node_Ordering.pdf  [edited elements: 1]
+Problem_Set_05.pdf  <-  static_resources/b88cbfb209925c44cbe3fb9b1d413e09_MIT2_29S15_PS5_SP2015_v3.pdf  [edited elements: 3]
+Problem_Set_03.pdf  <-  static_resources/a03f3de87ece35ba4a0453274301e41e_MIT2_29S15_PS3_SP2015_v1.pdf  [edited elements: 3]
+Problem_Set_04.pdf  <-  static_resources/7e6da315ef9b5bb1bda245818186a396_MIT2_29S15_PS4_SP2015_v1.pdf  [edited elements: 3]
+Problem_Set_06.pdf  <-  static_resources/b20d005e73698511ec4a8d1fbbd01f16_MIT2_29S15_PS6_SP2015_v1.pdf  [edited elements: 3]
+Problem_Set_02.pdf  <-  static_resources/695ad932c0fd3ae8dfce6402cb645caf_MIT2_29S15_PS2_SP2015_v4.pdf  [edited elements: 3]

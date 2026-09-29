@@ -1,0 +1,4 @@
+Bu paket, University of Illinois Energy Transport Research Lab tarafından herkese açık yayımlanan ders notlarının kişisel inceleme için üst sağ ad alanı temizlenmiş kopyasıdır.
+Özgün kaynak: https://etrl.mechanical.illinois.edu/education.html
+Özgün eserlerin hakları ve atıf bilgisi kaynak sayfasındadır. Değiştirilmiş PDFleri kendi eseriniz olarak sunmayın veya izin olmadan yeniden yayımlamayın.
+İzlenceler kurum ve kişi iletişim bilgileri içerdiğinden bu pakete alınmadı.
